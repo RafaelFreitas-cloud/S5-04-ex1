@@ -5,3 +5,6 @@ function zeroFuel(distanceToPump, mpg, fuelLeft){
         return false
     }
 }
+
+console.log(zeroFuel(100,50,2))
+console.log(zeroFuel(75,25,2))
